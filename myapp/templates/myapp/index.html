@@ -9,6 +9,12 @@
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
           crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #donutChart {
+            max-width: 300px;
+            margin: 0 auto; /* center chart horizontally */
+        }
+    </style>
 </head>
 <body>
 
@@ -110,7 +116,7 @@
         </div>
 
         <!-- Donut Chart -->
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
             <h4 class="mb-3">Macronutrient Distribution</h4>
             <canvas id="donutChart"></canvas>
         </div>
